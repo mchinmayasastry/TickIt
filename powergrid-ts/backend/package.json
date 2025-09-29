@@ -28,7 +28,8 @@
     "natural": "^8.1.0",
     "nodemailer": "^7.0.6",
     "ts-node": "^10.9.2",
-    "uuid": "^13.0.0"
+    "uuid": "^13.0.0",
+    "windsurf-project": "file:../.."
   },
   "devDependencies": {
     "@types/jest": "^30.0.0",
