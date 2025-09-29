@@ -1,0 +1,35 @@
+[
+  {
+    "id": "kb-001",
+    "title": "Reset your POWERGRID account password",
+    "content": "Use the Self-Service Password Reset portal or contact Service Desk.",
+    "tags": [
+      "password",
+      "reset",
+      "account",
+      "access"
+    ],
+    "url": "#"
+  },
+  {
+    "id": "kb-002",
+    "title": "Request VPN access",
+    "content": "Submit a VPN access request and install the approved VPN client.",
+    "tags": [
+      "vpn",
+      "network",
+      "access"
+    ],
+    "url": "#"
+  },
+  {
+    "id": "kb-003",
+    "title": "Outlook not syncing",
+    "content": "Check connectivity, reset profile, or repair Office.",
+    "tags": [
+      "email",
+      "outlook"
+    ],
+    "url": "#"
+  }
+]

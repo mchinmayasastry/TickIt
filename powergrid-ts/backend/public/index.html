@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>POWERGRID UTS Prototype</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>POWERGRID Unified Ticketing System</h1>
+      <p class="subtitle">Prototype UI</p>
+    </header>
+
+    <main>
+      <section class="card">
+        <h2>API Health</h2>
+        <button id="btnHealth">Check Health</button>
+        <pre id="healthOut" class="out"></pre>
+      </section>
+
+      <section class="grid">
+        <div class="card">
+          <h2>Knowledge Search</h2>
+          <form id="formSearch">
+            <input id="searchQ" placeholder="Search knowledge base..." required />
+            <button type="submit">Search</button>
+          </form>
+          <ul id="searchResults" class="list"></ul>
+        </div>
+
+        <div class="card">
+          <h2>Chatbot</h2>
+          <form id="formChat">
+            <textarea id="chatMsg" placeholder="Describe your issue..." required></textarea>
+            <div class="row">
+              <label><input type="checkbox" id="createTicketChk" /> Create ticket if not resolved</label>
+            </div>
+            <button type="submit">Send</button>
+          </form>
+          <pre id="chatOut" class="out"></pre>
+        </div>
+
+        <div class="card">
+          <h2>Create Ticket</h2>
+          <form id="formTicket">
+            <input id="ticketTitle" placeholder="Title" required />
+            <textarea id="ticketDesc" placeholder="Description" required></textarea>
+            <select id="ticketPriority">
+              <option value="low">Low</option>
+              <option value="medium" selected>Medium</option>
+              <option value="high">High</option>
+              <option value="critical">Critical</option>
+            </select>
+            <button type="submit">Create</button>
+          </form>
+          <pre id="ticketOut" class="out"></pre>
+        </div>
+
+        <div class="card">
+          <h2>Tickets</h2>
+          <button id="btnLoadTickets">Load Tickets</button>
+          <ul id="ticketsList" class="list"></ul>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <span>© POWERGRID Prototype</span>
+    </footer>
+
+    <script src="/app.js" type="module"></script>
+  </body>
+</html>

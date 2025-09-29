@@ -1,0 +1,54 @@
+[
+  {
+    "id": "4ed0b193-2d13-40ea-ac7f-04b5e4125e18",
+    "createdAt": "2025-09-29T13:32:49.150Z",
+    "updatedAt": "2025-09-29T13:32:49.150Z",
+    "title": "password incorrect",
+    "description": "password incorrect",
+    "source": "chatbot",
+    "priority": "medium",
+    "status": "open",
+    "requester": {},
+    "category": "Access & Identity",
+    "assigneeTeam": "IAM Team"
+  },
+  {
+    "id": "2deb5099-46bf-4978-b3b6-12b5df06882a",
+    "createdAt": "2025-09-29T13:33:14.658Z",
+    "updatedAt": "2025-09-29T13:33:14.658Z",
+    "title": "password",
+    "description": "password incorreect",
+    "source": "web",
+    "priority": "medium",
+    "status": "open",
+    "requester": {},
+    "category": "Access & Identity",
+    "assigneeTeam": "IAM Team"
+  },
+  {
+    "id": "a3db1f92-68ca-41d5-a4d0-a86beafd421b",
+    "createdAt": "2025-09-29T13:34:37.681Z",
+    "updatedAt": "2025-09-29T13:34:37.681Z",
+    "title": "password incorrect",
+    "description": "password incorrect",
+    "source": "chatbot",
+    "priority": "medium",
+    "status": "open",
+    "requester": {},
+    "category": "Access & Identity",
+    "assigneeTeam": "IAM Team"
+  },
+  {
+    "id": "76ffafec-89c5-4aac-93e4-3db4773d6d99",
+    "createdAt": "2025-09-29T13:34:38.762Z",
+    "updatedAt": "2025-09-29T13:34:38.762Z",
+    "title": "password incorrect",
+    "description": "password incorrect",
+    "source": "chatbot",
+    "priority": "medium",
+    "status": "open",
+    "requester": {},
+    "category": "Access & Identity",
+    "assigneeTeam": "IAM Team"
+  }
+]
